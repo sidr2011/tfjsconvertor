@@ -30,6 +30,7 @@ services:
 
 ```shell
 docker-compose up -d --build
+docker-compose up --build
 ```
 ## Expected result
 

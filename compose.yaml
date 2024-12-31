@@ -3,9 +3,13 @@ services:
     build:
       context: .
       target: builder
-    container_name: fastapi-application
+    container_name: tfjs-converter
     environment:
       PORT: 8000
     ports:
       - '8000:8000'
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
     restart: "no"
