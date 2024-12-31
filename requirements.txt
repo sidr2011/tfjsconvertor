@@ -1,0 +1,6 @@
+ultralytics
+numpy
+tensorflow
+tensorflow
+opencv-python
+tfjs-graph-converter
